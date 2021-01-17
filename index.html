@@ -11,16 +11,143 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Font awesome icons -->
     <script src="https://kit.fontawesome.com/8d82a80fff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    
+<body id="home">
 
+    <!-- navbar -->
+    <div class="navbar-fixed">
+        <nav class="blue accent-2">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a class="brand-logo">TravelO</a>
+                    <a href="" class="sidenav-trigger" data-target="mobile-nav">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#search">Search</a></li>
+                        <li><a href="#popular">Popular Places</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- mobile-nav -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#search">Search</a></li>
+        <li><a href="#popular">Popular Places</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- section slider -->
+
+    <section class="slider">
+        <ul class="slides">
+            <li>
+                <img src="img/camera.jpg">
+                <div class="caption center-align">
+                    <h2>Take your dream vacation</h2>
+                    <h5 class="hide-on-small-only">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo et ullam tenetur impedit,
+                        delectus ipsa animi atque asperiores quibusdam quos.
+                    </h5>
+                </div>
+            </li>
+
+            <li>
+                <img src="img/resort.jpg">
+                <div class="caption right-align">
+                    <h2>Picture perfect locations</h2>
+                    <h5 class="hide-on-small-only">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo et ullam tenetur impedit,
+                        delectus ipsa animi atque asperiores quibusdam quos.
+                    </h5>
+                </div>
+            </li>
+
+            <li>
+                <img src="img/resort2.jpg">
+                <div class="caption left-align">
+                    <h2>Feel the Nature</h2>
+                    <h5 class="hide-on-small-only">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo et ullam tenetur impedit,
+                        delectus ipsa animi atque asperiores quibusdam quos.
+                    </h5>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- search -->
+    <section id="search" class="section section-search blue darken-1 white-text center scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h3>Search Destinations</h3>
+                    <div class="input-field">
+                        <input type="text" class="white grey-text autocomplete" id="input"
+                            placeholder="Sigiriya, Anuradhapura etc...">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-icons grey lighten-4 center">
+        <div class="container">
+            <div class="row">
+
+                <div class="col s12 m4">
+                    <div class="card-panel">
+                        <i class="material-icons large blue-text">room</i>
+                        <h4>Pick Where</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, distinctio.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card-panel">
+                        <i class="material-icons large blue-text">store</i>
+                        <h4>Shop</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, distinctio.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card-panel">
+                        <i class="material-icons large blue-text">beach_access</i>
+                        <h4>Enjoy</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, distinctio.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    
 
 
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
