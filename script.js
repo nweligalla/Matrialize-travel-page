@@ -22,7 +22,14 @@ M.Autocomplete.init(ac, {
         "colombo": null,
         "jaffna": null,
         "hikkaduwa": null,
-        "ambuluwawa":null,
-        "kalkuda":null,
+        "ambuluwawa": null,
+        "kalkuda": null,
     }
 });
+
+const matbox = document.querySelectorAll('.materialboxed');
+M.Materialbox.init(matbox, {});
+
+
+const scrollspy = document.querySelectorAll('.scrollspy');
+M.ScrollSpy.init(scrollspy, {});
